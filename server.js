@@ -20,7 +20,9 @@ const pool = new Pool(
 
 pool.connect();
 
-
+app.get('/api/departments', (req, res) => {
+    const sql = `Select `
+})
 
 
 
